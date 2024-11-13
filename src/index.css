@@ -1,13 +1,30 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#Title {
+  text-align: center;
+  font : normal 50px "Lucida Grande", "Comic Sans MS";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Add {
+  text-align: center;
+  font: normal 20px "Lucida Grande", "Comic Sans MS";
+}
+.Adddiv {
+  text-align: center;
+}
+#checkboxdiv {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.incheckbox {
+  display: inline-block;
+  font-size: 20px;
+  max-height: 100px;
+  max-width: 300px;
+  resize: none;
+}
+.tick {
+  background-size: 50px 50px;
+  height: 50px;
+  width: 50px;
 }
