@@ -1,10 +1,13 @@
-
-function Title() {
-    return(
-        <>
-        <h1 id="Title">To Do List</h1>
-        </>
-    )
-}
-
-export default Title;
+// import Todo from "./assets/Todotitle.png"
+//
+// function Title() {
+//     return(
+//         <>
+//             <div id='titlediv'>
+//                 <img id="Title" src={Todo} alt='Title'/>
+//             </div>
+//         </>
+//     )
+// }
+//
+// export default Title;

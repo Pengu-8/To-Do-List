@@ -1,9 +1,14 @@
 #Title {
-  text-align: center;
-  font : normal 50px "Lucida Grande", "Comic Sans MS";
+  height: 240px;
+  width: 400px;
+
 }
 
 .Add {
+  text-align: center;
+  font: normal 20px "Lucida Grande", "Comic Sans MS";
+}
+.Clear {
   text-align: center;
   font: normal 20px "Lucida Grande", "Comic Sans MS";
 }
@@ -16,6 +21,13 @@
   flex-direction: column;
   align-items: center;
 }
+#functiondiv {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .incheckbox {
   display: inline-block;
   font-size: 20px;
@@ -25,6 +37,22 @@
 }
 .tick {
   background-size: 50px 50px;
-  height: 50px;
-  width: 50px;
+  height: 55px;
+  width: 55px;
+}
+.tick:hover {
+  cursor: pointer;
+}
+.remove {
+  height: 60px;
+  width: 60px;
+  background-image: url("assets/bin.jpg");
+  background-size: 60px 60px;
+}
+.remove:hover {
+  cursor: pointer;
+}
+
+body {
+  background: #babd9d;
 }

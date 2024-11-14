@@ -5,7 +5,7 @@ function App() {
 
     return(
         <>
-            <Title/>
+            {/*<Title/>*/}
             <Checkbox/>
         </>
     )
